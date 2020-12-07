@@ -8,3 +8,12 @@ int main(){
 	return 0;
 
 }
+#include<stdio.h>
+int main(){
+float i;
+scanf("%f",&i);
+printf("lllll%d",(int)i);
+return 0;
+}
+
+
