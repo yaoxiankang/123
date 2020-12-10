@@ -2,17 +2,17 @@
 #include<string.h>
 void main() {
 	int a=0;
-	int b = 5;
-	char w;
+	int b=5;
+	char w[50];
 	printf("想玩儿游戏吗，先回答下一句是什么？天王盖地虎，___________。\n");
-	while
+	while(w!=27){
 		scanf("%s", &w);
-		if(!strcmp(!w," 宝塔镇河妖")) {
+		if(!strcmp(w," 宝塔镇河妖")) {
 			printf("答对了，开始游戏吧!\n");
 		}
 		else
 			printf("答错了，请重答\n");
-	
+	}
 	for(;;) {
 		printf("输入在0  ~  20\n");
 		scanf("%d", &a); {
