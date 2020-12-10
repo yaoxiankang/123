@@ -1,16 +1,19 @@
 #include<stdio.h>
 int main()
 	{
-	char grade;
+	int grade;
 	 printf("  成绩等级判定 \n ");
-    	scanf("%c",&grade);
-switch(grade)
-	{
-	    case'A':printf(" 85~100\n");break;
-    	case'B':printf(" 70~84\n");break;
-	   case'C':printf(" 60~69\n");break;
-      case'D':printf(" <60\n");break;
-	default:printf("enter data error!\n");
-	}
+    	scanf("%d",&grade);
+		if(85<grade<100){
+		printf("A\n");}
+		else if(70<grade<84){
+		printf("B\n");}
+		else if(60<grade<69){
+		printf("C\n");}
+		else if(grade<60){
+		printf("D\n");}
+		else
+			printf("enter data error!");
+
 return 0;
 }
