@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class calss {
+	public static void main (String args []) {
+		int a=5,b=9,c=6,t=0;
+		if(a<b) {
+			t=b;
+			a=b;
+			b=c;
+		}
+		if(c<a) {
+			t=a;
+			a=c;
+			c=b;
+		}
+		if(c<b) {
+			t=b;
+			b=c;
+			c=t;
+		}
+		System .out .println("a="+a+",b="+b+",c="+c);
+				
+	}		
+		}
